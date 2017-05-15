@@ -11,8 +11,8 @@
  ## 输入的所有类型，查询出的结果
 ![结果](ALLSearch.png)
 ## 测试结果（选择的是FENDER ELECTRIC SITKA SITKA）
-![结果](测试Test.png)
-![结果](test.png)
+![结果](测试Test.jpg)
+![结果](testRS.png)
 
  
  
