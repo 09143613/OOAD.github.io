@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="GBK"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<constant name="struts.ui.theme" value="simple" />
+	<constant name="conststruts.devMode" value="true"/>
+	<constant name="struts.i18n.encoding" value="utf-8" />
+	<!-- Struts2的所有Action都需位于package下 -->
+	<package name="guitar" extends="struts-default">	
+		<!-- 由首页转到商品页面  --> 
+        <action name="*Guitar" class="cn.edu.cumt.ec.action.GuitarAction" method="{1}">
+		</action> 
+		
+		<action name="*">
+			<result>/WEB-INF/content/{1}.jsp</result>
+		</action>
+		
+	</package>
+</struts>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="guitarSearchTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-05-30T05:00:32" hostname="DESKTOP-TLH4S6E" time="0.009">
+  <properties/>
+  <testcase name="test" classname="guitarSearchTest" time="0.009"/>
+  <system-out><![CDATA[Erin, you might like these guitars:
+  We have a FENDER Stratocastor ELECTRIC guitar:
+     SITKA back and sides,
+     SITKA top.
+  You can have it for only $123.0!
+  ----
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
