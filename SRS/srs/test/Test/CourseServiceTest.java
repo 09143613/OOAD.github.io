@@ -1,4 +1,4 @@
-package Test;
+﻿package Test;
 
 import javax.annotation.Resource;
 
@@ -21,15 +21,5 @@ public class CourseServiceTest {
 		System.out.println(courseService.queryCourse());
 		
 	}
-/*	@Test
-	public void addCourseTest(){
-		Course course=new Course();
-		course.setCredits(2.0);
-		course.setName("数据结构");
-		course.setNumber("0032");
-		System.out.println(courseService.addCourse(course));
-	}
-	@Test public void deleteCourseTest(){
-		System.out.println(courseService.deleteCourse("0001"));
-	}*/
+
 }

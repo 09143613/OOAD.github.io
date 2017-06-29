@@ -17,7 +17,7 @@ public class TranscriptTest {
 	private TranscriptService transcriptService;
 	@Test
 	public void queryTranscriptTest() {
-		System.out.println(transcriptService.queryTranscript("09143605"));;
+		System.out.println(transcriptService.queryTranscript("09143613"));;
 	}
 
 }

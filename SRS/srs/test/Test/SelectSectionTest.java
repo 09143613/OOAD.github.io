@@ -22,7 +22,7 @@ public class SelectSectionTest {
 	}
 	@Test
 	public void selectSectionTest() {
-		System.out.println(selectSectionService.selectSection("09143605",4));
+		System.out.println(selectSectionService.selectSection("09143613",4));
 	}
 	@Test
 	public void queryEnrolledStudentsTest() {
